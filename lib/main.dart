@@ -9,7 +9,8 @@ Future<void> main() async {
     appRouter: AppRouter(),
   ));
 }
-
+/// multiline 
+/// comment
 class MyApp extends StatelessWidget {
   const MyApp({super.key, required this.appRouter});
 
