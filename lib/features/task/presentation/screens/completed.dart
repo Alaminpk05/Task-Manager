@@ -19,6 +19,7 @@ class _CompletedPageState extends State<Completed> {
     return BlocBuilder<TaskBloc, TaskState>(
       builder: (context, state) {
         return Scaffold(
+        
             body: Column(
           children: [
             Center(

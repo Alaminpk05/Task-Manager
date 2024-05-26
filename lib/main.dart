@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       child: BlocBuilder<SwitchBloc, SwitchState>(
         builder: (context, state) {
           return MaterialApp(
-            title: 'Flutter Demo',
+            title: 'Task Manager',
             theme:state.switchvalue==true?AppThemes.appThemeData[AppTheme.darkTheme]
                 :AppThemes.appThemeData[AppTheme.lightTheme],
             debugShowCheckedModeBanner: false,

@@ -19,7 +19,7 @@ class _FavouritePageState extends State<Favourite> {
     return BlocBuilder<TaskBloc, TaskState>(
       builder: (context, state) {
         return Scaffold(
-
+          
             body: Column(
               children: [
                 Center(child: Chip(label: ' ${state.favoriteTasks.length} Task'.text.make())),

@@ -34,7 +34,7 @@ class Addtask extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.only(top: 10, bottom: 10, left: 10, right: 10),
+          padding: const EdgeInsets.only(top: 10, bottom: 10, left: 10, right: 10),
           child: TextFormField(
             controller: desController,
             autofocus: true,
@@ -72,7 +72,7 @@ class Addtask extends StatelessWidget {
                       context.read<TaskBloc>().add(AddTask(task: task));
                       Navigator.pop(context);
                     },
-                    child: 'Add'.text.semiBold.color(Colors.blue).make());
+                    child: 'Add'.text.semiBold.make());
               },
             )
           ],

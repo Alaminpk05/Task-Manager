@@ -19,6 +19,7 @@ class _PendingPageState extends State<PendingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+     
         body: BlocBuilder<TaskBloc, TaskState>(
       builder: (context, state) {
         List<TaskModel> tasks = state.pendingTasks;

@@ -1,3 +1,5 @@
+import 'package:stylish_bottom_bar/helpers/bottom_bar.dart';
+import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 import 'package:taskmanager/util/export.dart';
 
 class TabPage extends StatefulWidget {
@@ -53,10 +55,10 @@ class _TabPageState extends State<TabPage> {
           
           floatingActionButton: index == 0
               ? FloatingActionButton(
-                  backgroundColor: Colors.black,
+                 
                   child: const Icon(
                     Icons.add,
-                    color: Colors.white,
+                   
                   ),
                   onPressed: () {
                     ModalbottomSheet(context,const Addtask());
@@ -65,7 +67,7 @@ class _TabPageState extends State<TabPage> {
           
           
           
-          bottomNavigationBar: BottomNavigationBar(
+           bottomNavigationBar: BottomNavigationBar(
               onTap: (value) {
                 setState(() {
                   index=value;

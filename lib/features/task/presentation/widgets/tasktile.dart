@@ -13,6 +13,7 @@ class tasktile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 10.0),
       child: Row(
+      
         children: [
           Expanded(
             child: Row(
